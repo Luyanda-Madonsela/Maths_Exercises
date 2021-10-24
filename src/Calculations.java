@@ -1,3 +1,4 @@
+import javax.swing.*;
 import java.util.*;
 
 public class Calculations {
@@ -17,6 +18,11 @@ public class Calculations {
         for(int i = 0; i<=10;i++){
             System.out.print(area + i+"\n");
         }
+        String input = JOptionPane.showInputDialog("Please enter your name");
+        System.out.print(input);
+
+
+
     }
 
 
